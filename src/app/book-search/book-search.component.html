@@ -1,0 +1,67 @@
+<div class="search-container">
+  <h2>Busca de Livros</h2>
+  <input
+    type="text"
+    placeholder="Digite o título ou autor"
+    [(ngModel)]="searchTerm"
+    class="search-input"
+  />
+  <button (click)="searchBooks()">Buscar</button>
+</div>
+
+<!-- Exibir os livros encontrados -->
+<div *ngIf="books.length > 0" class="results-container">
+  <h3>Resultados da Busca:</h3>
+  <ul>
+    <li *ngFor="let book of books">
+      <img [src]="book.volumeInfo.imageLinks?.thumbnail" alt="Capa do livro" />
+      <div>
+        <h4>{{ book.volumeInfo.title }}</h4>
+        <p>{{ book.volumeInfo.authors?.join(', ') }}</p>
+        <p>{{ book.volumeInfo.description?.substring(0, 100) }}...</p>
+        <button (click)="addToFavorites(book)">Favoritar</button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- Filtro por tags para livros favoritos -->
+<div *ngIf="favorites.length > 0" class="filter-container">
+  <label>Filtrar favoritos por tag:</label>
+  <input type="text" [(ngModel)]="filterTag" placeholder="Digite uma tag" />
+</div>
+
+<!-- Exibir os livros favoritos com base no filtro de tags -->
+<div *ngIf="favorites.length > 0" class="favorites-container">
+  <h3>Livros Favoritados:</h3>
+  <ul>
+    <li *ngFor="let favorite of filterFavoritesByTag()">
+      <img [src]="favorite.volumeInfo.imageLinks?.thumbnail" alt="Capa do livro" />
+      <div>
+        <h4>{{ favorite.volumeInfo.title }}</h4>
+        <p>{{ favorite.volumeInfo.authors?.join(', ') }}</p>
+
+        <!-- Campo para adicionar notas -->
+        <label>Notas pessoais:</label>
+        <textarea [(ngModel)]="favorite.notes"></textarea>
+
+        <!-- Campo para avaliação -->
+        <label>Avaliação (1 a 5):</label>
+        <input type="number" [(ngModel)]="favorite.rating" min="1" max="5" />
+
+        <!-- Campo para adicionar tags -->
+        <label>Tags:</label>
+        <input type="text" [(ngModel)]="favorite.tags" />
+
+        <button (click)="updateFavorite(favorite, favorite.notes, favorite.rating, favorite.tags)">
+          Atualizar
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!-- Exibir uma mensagem de erro, se houver -->
+<div *ngIf="error">
+  <p>{{ error }}</p>
+</div>
