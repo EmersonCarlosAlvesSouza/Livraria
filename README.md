@@ -53,9 +53,9 @@ Melhorar a estilização na quando adicionado ao "Favorito".<br>
 
 # Estilização
 A estilização foi feita usando a paleta de cores do site Coco Bambu com o plugin CSS Peeper.
-Cores escolhidas:
-000000
-c6aa69
-ffffff
-29100b
-441910
+Cores escolhidas:<br>
+000000<br>
+c6aa69<br>
+ffffff<br>
+29100b<br>
+441910<br>
