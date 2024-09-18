@@ -8,9 +8,11 @@ Gerenciamento de Favoritos: Visualização e edição de livros favoritos.<br>
 
 ### Tecnologias Utilizadas
 Angular: Estrutura principal do front-end.<br>
+API: Google Books API<br>
 CSS: Estilização da interface.<br>
 Git: Controle de versão.<br>
 Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.<br>
+
 
 
 ## Instalação e Execução
