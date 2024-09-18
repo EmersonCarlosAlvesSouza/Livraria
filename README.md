@@ -52,7 +52,8 @@ Criação de Paginas para fazer a navegação.<br>
 Melhorar a estilização na quando adicionado ao "Favorito".<br>
 
 # Estilização
-A estilização foi feita usando a paleta de cores do site Coco Bambu com o plugin CSS Peeper.
+A estilização foi feita usando a paleta de cores do site [Coco Bambu](https://cocobambu.com.br) com o plugin CSS Peeper.
+
 Cores escolhidas:<br>
 000000<br>
 c6aa69<br>
