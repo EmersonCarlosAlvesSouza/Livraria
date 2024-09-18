@@ -38,17 +38,17 @@ ng serve<br>
 O servidor será iniciado e a aplicação estará disponível no navegador no endereço: http://localhost:4200.
 
 ## Operadores RxJS utilizados no código:
-# debounceTime():
-
-# switchMap():
-
-# catchError():
-
-
+<br>
+1 - debounceTime():
+<br>
+2 - switchMap():
+<br>
+3 - catchError():
+<br>
 ## Melhorias que pode ser feitas:
-Criação de teste unitarios.
-Criação de Paginas para fazer a navegação.
-Melhorar a estilização na quando adicionado ao "Favorito"
+Criação de teste unitarios.<br>
+Criação de Paginas para fazer a navegação.<br>
+Melhorar a estilização na quando adicionado ao "Favorito".<br>
 
 # Estilização
 A estilização foi feita usando a paleta de cores do site Coco Bambu com o plugin CSS Peeper.
