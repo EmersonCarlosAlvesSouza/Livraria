@@ -1,5 +1,5 @@
 ### Projeto Livraria - Angular
-Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos. A aplicação também possui uma melhoria de estilização dos livros favoritos, além de permitir navegação entre páginas.
+Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos.
 
 ### Funcionalidades
 Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor. <br>
