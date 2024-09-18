@@ -1,1 +1,148 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --black: #000000;
+    --gold: #c6aa69;
+    --white: #ffffff;
+    --dark-brown: #29100b;
+    --deep-red: #441910;
+}
+
+body {
+    background-color: var(--gold);
+    color: var(--white);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    color: var(--white);
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+input, button, textarea {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid var(--black);
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+button {
+    background-color: var(--deep-red);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: var(--black);
+    color: var(--gold);
+}
+
+.search-container {
+    background-color: var(--gold);
+    padding: 20px;
+    text-align: center;
+}
+
+.search-input {
+    width: 50%;
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gold);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+.results-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results-container li {
+    background-color: var(--white);
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--black);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Adiciona centralização de texto */
+}
+
+.results-container img {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    max-width: 150px; /* Tamanho da imagem */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results-container h4 {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--black);
+    text-align: center;
+}
+
+.results-container p {
+    margin: 5px 0;
+    color: var(--black);
+    text-align: center;
+}
+
+textarea, input[type="number"], input[type="text"] {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    background-color: var(--white);
+    color: var(--black);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fav-button {
+    background-color: var(--white);
+    color: var(--deep-red);
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--black);
+}
+
+.fav-button:hover {
+    background-color: var(--black);
+    color: var(--gold);
+}
