@@ -33,22 +33,17 @@ npm install
 # Executando o Projeto
 Após a instalação das dependências, execute o servidor de desenvolvimento Angular com o comando:<br>
 
-ng serve
+ng serve<br>
 <br>
 O servidor será iniciado e a aplicação estará disponível no navegador no endereço: http://localhost:4200.
 
 ## Operadores RxJS utilizados no código:
-debounceTime(500):
+# debounceTime():
 
-O que é?: Este operador faz com que um evento só seja emitido se um certo intervalo de tempo (neste caso, 500 milissegundos) passar sem que outro evento seja disparado.
+# switchMap():
 
-switchMap():
+# catchError():
 
-O que é?: Este operador cancela uma requisição anterior se uma nova for disparada antes da conclusão. Ele é útil quando você quer garantir que apenas a última operação seja executada (exemplo: quando o usuário continua digitando uma busca, queremos apenas o último termo digitado).
-
-catchError():
-
-O que é?: Este operador permite capturar e lidar com erros em um fluxo de dados assíncrono. No caso de uma falha na requisição HTTP, ele captura o erro e permite executar uma ação de fallback ou mostrar uma mensagem de erro ao usuário.
 
 ## Melhorias que pode ser feitas:
 Criação de teste unitarios.
