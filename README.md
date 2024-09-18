@@ -2,71 +2,41 @@
 Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos. A aplicação também possui uma melhoria de estilização dos livros favoritos, além de permitir navegação entre páginas.
 
 ### Funcionalidades
-Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor.
-Favoritar Livros: Possibilidade de marcar livros como favoritos.
-Gerenciamento de Favoritos: Visualização e edição de livros favoritos.
+Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor. <br>
+Favoritar Livros: Possibilidade de marcar livros como favoritos.<br>
+Gerenciamento de Favoritos: Visualização e edição de livros favoritos.<br>
 
 ### Tecnologias Utilizadas
-Angular: Estrutura principal do front-end.
-CSS: Estilização da interface.
-Git: Controle de versão.
-Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.
-
-
-
-Aqui está um modelo de README.md detalhado para o seu projeto Angular, incluindo as instruções de execução, explicação sobre as funcionalidades, e o processo de contribuição.
-
-Projeto Livraria - Angular
-Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos. A aplicação também possui uma melhoria de estilização dos livros favoritos, além de permitir navegação entre páginas.
-
-Funcionalidades
-Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor.
-Favoritar Livros: Possibilidade de marcar livros como favoritos.
-Gerenciamento de Favoritos: Visualização e edição de livros favoritos.
-Melhoria de Estilização: Centralização da exibição dos favoritos, incluindo campos como a imagem do livro, o nome do autor e as notas pessoais.
-Paginação: Criação de páginas de navegação para explorar a lista de livros.
-Tecnologias Utilizadas
-Angular: Estrutura principal do front-end.
-CSS: Estilização da interface.
-Git: Controle de versão.
-Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.
-Instalação e Execução
-Siga os passos abaixo para executar o projeto localmente.
-
-Pré-requisitos
-Certifique-se de ter as seguintes ferramentas instaladas:
-
-Node.js (versão 12 ou superior)
-npm (gerenciador de pacotes do Node.js)
-Angular CLI (para rodar projetos Angular)
-
-
+Angular: Estrutura principal do front-end.<br>
+CSS: Estilização da interface.<br>
+Git: Controle de versão.<br>
+Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.<br>
 
 
 ## Instalação e Execução
 Siga os passos abaixo para executar o projeto localmente.
 
-Pré-requisitos
-Certifique-se de ter as seguintes ferramentas instaladas:
+# Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas:<br>
 
-Node.js (versão 12 ou superior)
-npm (gerenciador de pacotes do Node.js)
-Angular CLI (para rodar projetos Angular)
+Node.js (versão 12 ou superior)<br>
+npm (gerenciador de pacotes do Node.js)<br>
+Angular CLI (para rodar projetos Angular)<br>
 
 # Para instalar o Angular CLI, utilize o comando:
 
 npm install -g @angular/cli
 
 # Instalando as Dependências
-Com o terminal aberto no diretório do projeto, instale as dependências necessárias utilizando o npm:
+Com o terminal aberto no diretório do projeto, instale as dependências necessárias utilizando o npm:<br>
 
 npm install
-
+<br>
 # Executando o Projeto
-Após a instalação das dependências, execute o servidor de desenvolvimento Angular com o comando:
+Após a instalação das dependências, execute o servidor de desenvolvimento Angular com o comando:<br>
 
 ng serve
-
+<br>
 O servidor será iniciado e a aplicação estará disponível no navegador no endereço: http://localhost:4200.
 
 ## Operadores RxJS utilizados no código:
