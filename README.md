@@ -14,10 +14,6 @@ Git: Controle de versão.<br>
 Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.<br>
 
 
-
-## Instalação e Execução
-Siga os passos abaixo para executar o projeto localmente.
-
 # Pré-requisitos
 Certifique-se de ter as seguintes ferramentas instaladas:<br>
 
