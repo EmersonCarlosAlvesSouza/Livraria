@@ -45,6 +45,7 @@ O servidor será iniciado e a aplicação estará disponível no navegador no en
 <br>
 3 - catchError():
 <br>
+
 ## Melhorias que pode ser feitas:
 Criação de teste unitarios.<br>
 Criação de Paginas para fazer a navegação.<br>
