@@ -1,27 +1,97 @@
-# BookExplorer
+### Projeto Livraria - Angular
+Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos. A aplicação também possui uma melhoria de estilização dos livros favoritos, além de permitir navegação entre páginas.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+### Funcionalidades
+Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor.
+Favoritar Livros: Possibilidade de marcar livros como favoritos.
+Gerenciamento de Favoritos: Visualização e edição de livros favoritos.
 
-## Development server
+### Tecnologias Utilizadas
+Angular: Estrutura principal do front-end.
+CSS: Estilização da interface.
+Git: Controle de versão.
+Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Aqui está um modelo de README.md detalhado para o seu projeto Angular, incluindo as instruções de execução, explicação sobre as funcionalidades, e o processo de contribuição.
 
-## Build
+Projeto Livraria - Angular
+Este projeto é uma aplicação web desenvolvida em Angular que permite aos usuários pesquisar, favoritar e gerenciar seus livros favoritos. A aplicação também possui uma melhoria de estilização dos livros favoritos, além de permitir navegação entre páginas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Funcionalidades
+Pesquisa de Livros: Os usuários podem buscar livros pelo título ou autor.
+Favoritar Livros: Possibilidade de marcar livros como favoritos.
+Gerenciamento de Favoritos: Visualização e edição de livros favoritos.
+Melhoria de Estilização: Centralização da exibição dos favoritos, incluindo campos como a imagem do livro, o nome do autor e as notas pessoais.
+Paginação: Criação de páginas de navegação para explorar a lista de livros.
+Tecnologias Utilizadas
+Angular: Estrutura principal do front-end.
+CSS: Estilização da interface.
+Git: Controle de versão.
+Node.js e npm: Utilizados para o gerenciamento de pacotes e execução local do projeto.
+Instalação e Execução
+Siga os passos abaixo para executar o projeto localmente.
 
-## Running unit tests
+Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Node.js (versão 12 ou superior)
+npm (gerenciador de pacotes do Node.js)
+Angular CLI (para rodar projetos Angular)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Instalação e Execução
+Siga os passos abaixo para executar o projeto localmente.
+
+Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas:
+
+Node.js (versão 12 ou superior)
+npm (gerenciador de pacotes do Node.js)
+Angular CLI (para rodar projetos Angular)
+
+# Para instalar o Angular CLI, utilize o comando:
+
+npm install -g @angular/cli
+
+# Instalando as Dependências
+Com o terminal aberto no diretório do projeto, instale as dependências necessárias utilizando o npm:
+
+npm install
+
+# Executando o Projeto
+Após a instalação das dependências, execute o servidor de desenvolvimento Angular com o comando:
+
+ng serve
+
+O servidor será iniciado e a aplicação estará disponível no navegador no endereço: http://localhost:4200.
+
+## Operadores RxJS utilizados no código:
+debounceTime(500):
+
+O que é?: Este operador faz com que um evento só seja emitido se um certo intervalo de tempo (neste caso, 500 milissegundos) passar sem que outro evento seja disparado.
+
+switchMap():
+
+O que é?: Este operador cancela uma requisição anterior se uma nova for disparada antes da conclusão. Ele é útil quando você quer garantir que apenas a última operação seja executada (exemplo: quando o usuário continua digitando uma busca, queremos apenas o último termo digitado).
+
+catchError():
+
+O que é?: Este operador permite capturar e lidar com erros em um fluxo de dados assíncrono. No caso de uma falha na requisição HTTP, ele captura o erro e permite executar uma ação de fallback ou mostrar uma mensagem de erro ao usuário.
+
+## Melhorias que pode ser feitas:
+Criação de teste unitarios.
+Criação de Paginas para fazer a navegação.
+Melhorar a estilização na quando adicionado ao "Favorito"
+
+# Estilização
+A estilização foi feita usando a paleta de cores do site Coco Bambu com o plugin CSS Peeper.
+Cores escolhidas:
+000000
+c6aa69
+ffffff
+29100b
+441910
